@@ -1,0 +1,57 @@
+html><!DOCTYPE
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent One</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=1400&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+        }
+        .overlay {
+            background: rgba(0,0,0,0.6);
+            height: 100vh;
+            padding-top: 120px;
+        }
+        h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+            color: #ffcc00;
+        }
+        p {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ffcc00;
+            color: black;
+            padding: 12px 25px;
+            margin-top: 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>Welcome to Rent One</h1>
+        <p>Yahan aap mujhe rent par le sakte hain — party, event, ya outing ke liye!</p>
+        <p><b>WhatsApp:</b> 9568224678</p>
+        <p><b>Call:</b> 8923154341</p>
+        <a href="https://wa.me/919568224678" class="btn">WhatsApp Now</a>
+    </div>
+</body>
+</html>
